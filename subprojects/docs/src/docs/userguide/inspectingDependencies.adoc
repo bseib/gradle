@@ -43,7 +43,7 @@ A link:https://scans.gradle.com/[build scan] can visualize dependencies as a nav
 </figure>
 +++++
 
-Every Gradle project provides the task `dependencies` to render the so-called _dependency report_ from the command line. By default the dependency report renders dependencies for all configurations. To pair down on the information provide the optional parameter `--configuration`.
+Every Gradle project provides the task `dependencies` to render the so-called _dependency report_ from the command line. By default the dependency report renders dependencies for all configurations. To pare down on the information provide the optional parameter `--configuration`.
 
 ++++
 <sample id="dependencyReport" dir="userguide/dependencyManagement/inspectingDependencies/dependenciesReport" title="Rendering the dependency report for a custom configuration">
